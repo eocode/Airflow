@@ -37,18 +37,6 @@ Manage commands
 docker exec -it airflow_airflow-worker_1 bash
 ```
 
-```cmd
-./airflow.sh bash
-```
-
-```cmd
-./airflow.sh info
-```
-
-```cmd
-./airflow.sh python
-```
-
 Test a task
 ```cmd
 airflow tasks test process_user create_table 2022-11-29
