@@ -1,6 +1,6 @@
 <div align="center">
   <div align="center">
-      <img width="100px" src="./airflow.png" 
+      <img width="200px" src="./airflow.png" 
       alt="Roomer"/>
   </div>
   <p align="center">
@@ -17,6 +17,12 @@ Create VENV
 
 ```cmd
 python -m venv env
+```
+
+```cmd
+# .env file
+AIRFLOW_UID=1000
+AIRFLOW_GID=0
 ```
 
 Install airflow
